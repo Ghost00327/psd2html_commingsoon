@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url("../fonts/Raleway-Black.ttf");
+}
+@font-face {
+    font-family: 'Raleway-BlackItalic';
+    src: url("../fonts/Raleway-BlackItalic.ttf");
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+@font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url("../fonts/Raleway-BoldItalic.ttf");
+}
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url("../fonts/Raleway-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'Raleway-ExtraBoldItalic';
+    src: url("../fonts/Raleway-ExtraBoldItalic.ttf");
+}
+@font-face {
+    font-family: 'Raleway-ExtraLight';
+    src: url("../fonts/Raleway-ExtraLight.ttf");
+}
+@font-face {
+    font-family: 'Raleway-ExtraLightItalic';
+    src: url("../fonts/Raleway-ExtraLightItalic.ttf");
+}
+@font-face {
+    font-family: 'Raleway-Italic';
+    src: url("../fonts/Raleway-Italic.ttf");
+}
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url("../fonts/Raleway-Light.ttf");
+}
+@font-face {
+    font-family: 'Raleway-LightItalic';
+    src: url("../fonts/Raleway-LightItalic.ttf");
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+@font-face {
+    font-family: 'Raleway-MediumItalic';
+    src: url("../fonts/Raleway-MediumItalic.ttf");
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Raleway-SemiBoldItalic';
+    src: url("../fonts/Raleway-SemiBoldItalic.ttf");
+}
+@font-face {
+    font-family: 'Raleway-Thin';
+    src: url("../fonts/Raleway-Thin.ttf");
+}
+@font-face {
+    font-family: 'Raleway-ThinItalic';
+    src: url("../fonts/Raleway-ThinItalic.ttf");
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+.time_circles>div>h4 {
+    text-transform: capitalize !important;
+}
+
+
+.select2-selection.select2-selection--single {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%) !important;
+    padding-left: .75rem !important;
+    padding-top: 5px !important;
+    padding-bottom: 4px !important;
+    border-width: 1px !important;
+    border-color: #e2e8f0 !important;
+    background-color: #fff !important;
+    border-radius: 0 !important;
+}
+
+.select2-selection.select2-selection--single:focus {
+    border-color: #667eea !important;
+}
+
+.select2-container .select2-selection--single {
+    height: auto !important;
+}
+
+.select2-selection__arrow {
+    display: none !important;
+}
+
+ul.select2-results__options li.select2-results__option.select2-results__option--selectable {
+    border-bottom: 1px solid #e2e8f0 !important;
+    padding-left: 1.25rem !important;
+}
+
+.select2-selection__rendered {
+    font-size: 14px !important;
+}
+
+.select2-results__options::-webkit-scrollbar {
+    width: 4px;               /* width of the entire scrollbar */
+  }
+  
+  .select2-results__options::-webkit-scrollbar-track {
+    background: #e2e8f0;        /* color of the tracking area */
+  }
+  
+  .select2-results__options::-webkit-scrollbar-thumb {
+    background-color: #e2e8f0;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #115c07;  /* creates padding around scroll thumb */
+  }
